@@ -13,11 +13,9 @@ import pandas as pd
 # Load trained model
 
 
+
 model = pickle.load(
-    open(
-        r'C:\Users\sai\Data science 15june2026 Batch\Assingment\MLR\MultipleLinearRegression.pkl',
-        'rb'
-    )
+    open('MultipleLinearRegression.pkl', 'rb')
 )
 # Streamlit App
 
